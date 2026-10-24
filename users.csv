@@ -1,0 +1,4 @@
+name,gender,email,status
+John Doe,male,johndoe_test1@example.com,active
+Jane Smith,female,janesmith_test2@example.com,active
+Alex Jones,male,alexjones_test3@example.com,active
