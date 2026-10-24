@@ -33,8 +33,8 @@
               "listen": "prerequest",
               "script": {
                 "exec": [
-                  "var randomId = _.random(10000, 99999);\r",
-                  "pm.environment.set(\"dynamic_email\", \"user_\" + randomId + \"@example.com\");"
+                  "var uniqueEmail = \"user_\" + Date.now() + \"@example.com\";",
+                  "pm.environment.set(\"dynamic_email\", uniqueEmail);"
                 ],
                 "type": "text/javascript",
                 "packages": {},
