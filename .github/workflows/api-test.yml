@@ -20,6 +20,6 @@ jobs:
 
     - name: Run Postman Collection via Newman
       run: |
-        newman run "22734010397_Lê Nguyễn Quốc Long_GoRest.postman_collection.json" \
-          -e "22734010397_Lê Nguyễn Quốc Long_GoRest Env.postman_environment.json" \
+        newman run "2273401010397_Lê Nguyễn Quốc Long_GoRest.postman_collection.json" \
+          -e "2273401010397_Lê Nguyễn Quốc Long_GoRest Env.postman_environment.json" \
           --env-var "token=08dda69e044b9007c3c8ea23cff76d2a6a82b20369f8c15d1e5e1965e4a7cedc"
