@@ -16,7 +16,7 @@
 		},
 		{
 			"key": "dynamic_email",
-			"value": "",
+			"value": "long_test_2026_az@gmail.com",
 			"type": "any",
 			"enabled": true
 		}
