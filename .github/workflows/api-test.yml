@@ -1,0 +1,25 @@
+name: GoRest API CI
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Newman
+      run: npm install -g newman
+
+    - name: Run Postman Collection via Newman
+      run: |
+        newman run "22734010397_Lê Nguyễn Quốc Long_GoRest.json" \
+          -e "22734010397_Lê Nguyễn Quốc Long_GoRest Env.json" \
+          -d users.csv
