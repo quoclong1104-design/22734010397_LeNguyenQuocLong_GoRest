@@ -58,7 +58,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"name\": \"{{name}}\",\r\n  \"gender\": \"{{gender}}\",\r\n  \"email\": \"{{dynamic_email}}\",\r\n  \"status\": \"{{status}}\"\r\n}",
+              "raw": "{\r\n  \"name\": \"Le Nguyen Quoc Long\",\r\n  \"gender\": \"male\",\r\n  \"email\": \"long_user_az_987654321@example.com\",\r\n  \"status\": \"active\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
