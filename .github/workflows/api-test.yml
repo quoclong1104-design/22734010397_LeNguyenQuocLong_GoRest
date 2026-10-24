@@ -20,6 +20,4 @@ jobs:
 
     - name: Run Postman Collection via Newman
       run: |
-        newman run collection.json \
-          -n 1 \
-          --env-var "token=08dda69e044b9007c3c8ea23ff76d2a6a82b20369f8c15d1e5e1965e4a7cedc"
+        newman run collection.json -e environment.json
